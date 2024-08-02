@@ -1,0 +1,78 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+staticfiles/
+media/
+
+# If you are using Django Compressor
+CACHE/
+
+# If your Django app has migrations (replace "myapp" with your actual app name)
+myapp/migrations/
+
+# Environment variables file
+.env
+
+# SQLite database files
+*.sqlite3
+
+# If you are using Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Sentry
+.sentryclirc
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm
+.idea/
+
+# Other IDEs
+*.sublime-workspace
+*.sublime-project
+
+# If you are using virtualenv
+venv/
+ENV/
+env/
